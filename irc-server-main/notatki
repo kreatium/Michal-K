@@ -1,0 +1,13 @@
+Połączono z serwerem IRC. Zarejestruj się używając NICK i USER.
+> NICK Michu
+> USER Michal T 0 * :Testowanie
+> 
+:irc.server 001 Michu :Witamy w IRC
+> JOIN #test
+> 
+:Michu!Michal@localhost JOIN #test
+:irc.server 353 Michu = #test :Michu
+:irc.server 366 Michu #test :Koniec listy NAMES
+> 
+:Michu2!Michal2@localhost JOIN #test
+
